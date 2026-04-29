@@ -1,0 +1,8 @@
+name: Greet_on_commit
+on: push
+jobs:
+  Actions-Job:
+    name: Github Actions Demo
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This job was triggered by a push to the repo"
